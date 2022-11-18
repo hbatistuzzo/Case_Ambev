@@ -5,10 +5,14 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/hbatistuzzo/Case_Ambev)
 ![GitHub last commit](https://img.shields.io/github/last-commit/hbatistuzzo/Case_Ambev)
 
-Project status: Completed
-<p align="right"><img src="Images/ironbadge.png" width="40%" alt="Logo"></p>
+Project status: In Progress
 
-# Project objective
+# Project Summary
+<p align="right"><img src="images/Ambev_logo_2015.svg.png" width="40%" alt="Logo"></p>
+
+This is a Data Science challenge from the Brazilian company Ambev.
+
+---
 
 # Technologies
 
@@ -23,8 +27,39 @@ Project status: Completed
 - MySQL 8.0
 - Tableau 2022.3
 
-# Project Description
+---
+
+# The Case
+
+Given the `dataset.json` file which contains the orders made by customers in one of Ambev's applications, the Case establish objective questions to be answered.
+Besides an initial inspection, this project will follow the structured path provided by the questions themselves.
+
+## Initial inspection
+
+---
+
+## Case questions
+
+- List as many use cases for the dataset as possible.
+	- Recommendation system
+	- Which channel sells the most 
+
+- Pick one of the use cases you listed in question 1 and describe how building a statistical model based on the dataset could best be used to improve the business this data comes from.
+
+- Implement the model you described in question 2, preferably in Python. The code has to retrieve the data, train and test a statistical model, and report relevant performance criteria.
+Ideally, we should be able to replicate your analysis from your submitted source-code, so please explicit the versions of the tools and packages you are using.
+
+- Explain each and every of your design choices, you can use jupyter notebooks. (e.g., preprocessing, model selection, hyper parameters, evaluation criteria). Compare and contrast your choices with alternative methodologies.
+
+- Describe how you would improve the model in Question 3 if you had more time.
+
+
+
+
+---
 
 # Steps
+
+---
 
 # Conclusion
