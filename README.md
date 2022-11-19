@@ -34,7 +34,7 @@ Besides an initial inspection, this project will follow the structured path prov
 
 ---
 
-## Case questions
+# Case questions
 
 - **List as many use cases for the dataset as possible**.
 
@@ -44,6 +44,7 @@ Besides an initial inspection, this project will follow the structured path prov
 	- Although not explicitly detailed, one of the attributes of `dataset.json` is the group which a certain customer belongs to, implying a degree os similarity between same-group customers. This allows the construction of
 a recommendation system tailored for each group.
 	- The "is_churn" attribute seems particularly useful to identify problems in user experience. A strong correlation with a certain seller_code might shed light into the problem.
+	- Inspect if certain products are becoming more or less popular with time.
 
 - Pick one of the use cases you listed in question 1 and describe how building a statistical model based on the dataset could best be used to improve the business this data comes from.
 
