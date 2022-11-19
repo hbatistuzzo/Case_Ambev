@@ -18,13 +18,11 @@ This is a Data Science challenge from the Brazilian company Ambev.
 
 - Python 3.8.13
 	- Pandas 1.4.4
-	- Numpy 1.20.3
+	- Numpy 1.21.5
 	- Pycaret 2.3.10
 	- Seaborn 0.11.2
-	- Matplotlib 3.5.3
-	- SQLAlchemy 1.4.42
+	- Matplotlib 3.5.2
 	- Scikit-learn 1.1
-- MySQL 8.0
 - Tableau 2022.3
 
 ---
@@ -34,15 +32,18 @@ This is a Data Science challenge from the Brazilian company Ambev.
 Given the `dataset.json` file which contains the orders made by customers in one of Ambev's applications, the Case establish objective questions to be answered.
 Besides an initial inspection, this project will follow the structured path provided by the questions themselves.
 
-## Initial inspection
-
 ---
 
 ## Case questions
 
-- List as many use cases for the dataset as possible.
-	- Recommendation system
-	- Which channel sells the most 
+- *List as many use cases for the dataset as possible*.
+
+	- Locate the best and worst selling products to optimize production.
+	- Locate the best and worst selling channels to optimize revenue.
+	- Locate the top customers to offer them "bonuses" or "gifts" as a sort of fidelity program.
+	- Although not explicitly detailed, one of the attributes of `dataset.json` is the group which a certain customer belongs to, implying a degree os similarity between same-group customers. This allows the construction of
+a recommendation system tailored for each group.
+	- The "is_churn" attribute seems particularly useful to identify problems in user experience. A strong correlation with a certain seller_code might shed light into the problem.
 
 - Pick one of the use cases you listed in question 1 and describe how building a statistical model based on the dataset could best be used to improve the business this data comes from.
 
