@@ -36,7 +36,7 @@ Besides an initial inspection, this project will follow the structured path prov
 
 ## Case questions
 
-- *List as many use cases for the dataset as possible*.
+- **List as many use cases for the dataset as possible**.
 
 	- Locate the best and worst selling products to optimize production.
 	- Locate the best and worst selling channels to optimize revenue.
